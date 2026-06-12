@@ -13,6 +13,12 @@ print(squared_list)
 with open("python_entries.txt", "a") as python_file:
     python_file.write(str(squared_list))
 
-    
+tv_shows = ["breaking bad", "game of Thrones", "stranger Things", "The Crown", "The Mandalorian"]
 
+captalised_tv_shows = [i.title() for i in tv_shows]
+print(captalised_tv_shows)
 
+print("\n")
+
+with open("python_entries.txt", "a") as python_file:
+    python_file.write(str(captalised_tv_shows))
